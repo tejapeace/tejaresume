@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/tej%20p/teja.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <h1></h1>
+        </div>
+        <div class="navbar-right">
+            <a class="a-element" href="http://127.0.0.1:5500/tej%20p/teja.html#home">Home</a>
+            <a class="a-element" href="http://127.0.0.1:5500/tej%20p/teja.html#services">Service</a>
+            <a class="a-element" href="http://127.0.0.1:5500/tej%20p/teja.html#contact">Contact</a>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <div class="home-left">
+            <h1>O.Dharma Teja</h1>
+            <p>Hello, I'm Dharma Teja, currently pursuing a Bachelor's degree in Electronics and Communication Engineering at RGM College of Engineering, Nandyal. I have a basic foundation in web development, with skills in HTML, CSS, and a medium level of proficiency in Python and low level in java.</p>
+        </div>
+        <div class="home-right">
+            <img class="pc-img" src="./Document_files/WhatsApp_Image_2024-09-25_at_8.03.14_AM_qojyqz.jpg">
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h1 class="ser-h1">SERVICES WE OFFER</h1>
+        <div class="service-sub-cont">
+            <div class="services-card">
+                 <h1>Video Editing</h1>
+                 <p>We provide video editing services to make yours videos look professional.This includes cutting,adding effects,and improving colors. for personal projects,social media use.</p>
+            </div>
+            <div class="services-card">
+                <h1>Photo Editing</h1>
+                <p>We offers professional photo editing services to enhance your images.This includes retouching,color correction,and background removel.for personal photos,social media use.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+       <h1 class="ser-h1">CONTACT US</h1> 
+        <div class="contact-info">
+            <p>O.Dharma Teja</p>
+            <p>+91 9550191131</p>
+            <p>teja60365565@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_iam__teja_/?igsh=MXJja3FjYmtxdTRocw%3D%3D">
+                    <img src="./Document_files/Instagram_icon.png.webp" class="social-icon-img">
+                </a>
+                <a href="https://www.linkedin.com/in/dharma-teja-161561280/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app">
+                    <img src="./Document_files/LinkedIn_logo_initials.png" class="social-icon-img">
+                </a>
+                <a href="https://youtube.com/@telugumusic3967?si=busphQHnGSa1WXld">
+                    <img src="./Document_files/youtube-icon-2048x2048-9yhzhno8.png" class="social-icon-img">
+                </a>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
